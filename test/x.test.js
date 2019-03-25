@@ -1,9 +1,8 @@
-const chai = require('chai');
+const expect = require('expect');
 const x = require('../main/x');
-chai.should();
 
 describe('x', function () {
     it('should test x to equal 1', function () {
-        x.should.equal("1");
+        expect(x).toEqual("1");
     });
 });
