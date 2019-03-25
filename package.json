@@ -8,5 +8,8 @@
     "mocha": "^3.2.0",
     "proxyquire": "^2.1.0",
     "sinon": "^1.17.7"
+  },
+  "scripts": {
+    "test": "mocha test/*.test.js"
   }
 }
